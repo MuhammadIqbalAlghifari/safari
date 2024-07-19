@@ -1,7 +1,7 @@
 <template>
     <div class="overflow-hidden">
         <div ref="parallaxRef"class="w-full h-screen relative">
-            <section ref="heroRef" class="h-full absolute z-0 flex justify-start items-center px-10 w-full">
+            <section ref="heroRef" class="h-full absolute z-0 flex justify-start items-center md:px-10 px-5 w-full">
                 <div class="flex-col flex lg:gap-y-10 gap-y-5 justify-center max-w-3xl lg:items-start items-center">
                     <h1 class="text-white font-bold xl:text-8xl lg:text-7xl md:text-6xl text-4xl" style="font-family: 'Sora Variable';">The New Safari</h1>
                     <p class="text-slate-200 xl:text-2xl md:text-xl text-lg max-w-2xl text-center lg:text-start" style="font-family: 'SF Regular';">The New Safari carries on the legendary lineage with contemporary and premium updates. The New Safari is a compelling combination of Grand Design, Cutting-edge Technology & Luxurious Comfort</p>
@@ -15,7 +15,7 @@
             </section>
             <img src="/hero.jpg" class="absolute -z-20 w-full h-full object-cover object-right brightness-90">
             <div class="absolute h-full -z-10 w-full bg-gradient-to-r from-black to-transparent opacity-50"></div>
-            <h1 ref="scaleRef" class="uppercase scale-[100] md:text-[172.32px] text-9xl font-extrabold mix-blend-multiply text-white bg-black absolute w-full h-full z-10 flex justify-center items-center" style="font-family: 'Urbanist Variable';">safari</h1>
+            <h1 ref="scaleRef" class="uppercase scale-[100] 2xl:scale-[200] lg:text-[172.32px] sm:text-9xl text-7xl font-extrabold mix-blend-multiply text-white bg-black absolute w-full h-full z-10 flex justify-center items-center" style="font-family: 'Urbanist Variable';">safari</h1>
             <div ref="scrollRef" class="flex opacity-0 absolute z-20 justify-center w-full h-full items-end py-20">
                 <button class="flex justify-center text-white items-center gap-x-5">
                     <p class="uppercase xl:text-2xl md:text-xl text-lg tracking-widest">scroll down</p>
