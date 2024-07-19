@@ -15,7 +15,7 @@
             </section>
             <img src="/hero.jpg" class="absolute -z-20 w-full h-full object-cover object-right brightness-90">
             <div class="absolute h-full -z-10 w-full bg-gradient-to-r from-black to-transparent opacity-50"></div>
-            <h1 ref="scaleRef" class="uppercase scale-[100] 2xl:scale-[200] lg:text-[172.32px] sm:text-9xl text-7xl font-extrabold mix-blend-multiply text-white bg-black absolute w-full h-full z-10 flex justify-center items-center" style="font-family: 'Urbanist Variable';">safari</h1>
+            <h1 ref="scaleRef" class="uppercase 2xl:scale-[500] lg:scale-[300] scale-[400] lg:text-[172.32px] sm:text-9xl text-7xl font-extrabold mix-blend-multiply text-white bg-black absolute w-full h-full z-10 flex justify-center items-center" style="font-family: 'Urbanist Variable';">safari</h1>
             <div ref="scrollRef" class="flex opacity-0 absolute z-20 justify-center w-full h-full items-end py-20">
                 <button class="flex justify-center text-white items-center gap-x-5">
                     <p class="uppercase xl:text-2xl md:text-xl text-lg tracking-widest">scroll down</p>
