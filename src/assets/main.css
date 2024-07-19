@@ -1,0 +1,62 @@
+@import './base.css';
+
+body {
+  font-family: 'Sora Variable', sans-serif;
+  font-family: 'Urbanist Variable', sans-serif;
+}
+
+
+body {
+  --sb-track-color: transparent;
+  --sb-thumb-color: #ffffff;
+  --sb-size: 11px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 0px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
+@font-face {
+  font-family: 'SF Bold';
+  src: url('../../font/SFProDisplay-Bold.woff2') format('woff2'),
+      url('../../font/SFProDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Medium';
+  src: url('../../font/SFProDisplay-Medium.woff2') format('woff2'),
+      url('../../font/SFProDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Regular';
+  src: url('../../font/SFProDisplay-Regular.woff2') format('woff2'),
+      url('../../font/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
